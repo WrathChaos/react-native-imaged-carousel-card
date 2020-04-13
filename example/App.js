@@ -24,6 +24,15 @@ const App = () => {
           }}
         >
           <ImagedCarouselCard />
+          <ImagedCarouselCard
+            height={200}
+            width={200}
+            shadowColor="#051934"
+            source={{
+              uri:
+                "https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            }}
+          />
         </View>
       </SafeAreaView>
     </>
