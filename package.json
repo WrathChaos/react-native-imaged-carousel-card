@@ -1,7 +1,7 @@
 {
-  "name": "react-native-library-boilerplate",
-  "version": "0.0.2",
-  "description": "Description for library",
+  "name": "react-native-imaged-carousel-card",
+  "version": "0.1.0",
+  "description": "Fully customizable & Lovely Imaged Carousel Card for React Native",
   "keywords": [
     "FreakyCoder",
     "freakycoder",
@@ -14,9 +14,9 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
-  "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "bugs": "https://github.com/WrathChaos/react-native-imaged-carousel-card/issues",
+  "main": "./lib/ImagedCarouselCard.js",
+  "repository": "git@github.com:WrathChaos/react-native-imaged-carousel-card.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
