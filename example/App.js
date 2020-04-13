@@ -18,21 +18,35 @@ const App = () => {
       <SafeAreaView>
         <View
           style={{
-            top: "30%",
+            top: 32,
             alignItems: "center",
             justifyContent: "center"
           }}
         >
-          <ImagedCarouselCard />
           <ImagedCarouselCard
             height={200}
             width={200}
             shadowColor="#051934"
             source={{
               uri:
-                "https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
             }}
           />
+          <View style={{ marginTop: 32 }}>
+            <ImagedCarouselCard />
+          </View>
+
+          <View style={{ marginTop: 32 }}>
+            <ImagedCarouselCard
+              height={200}
+              width={200}
+              shadowColor="#051934"
+              source={{
+                uri:
+                  "https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+              }}
+            />
+          </View>
         </View>
       </SafeAreaView>
     </>
