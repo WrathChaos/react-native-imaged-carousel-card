@@ -9,7 +9,7 @@
 import React from "react";
 import { View, StatusBar, SafeAreaView } from "react-native";
 
-import ImagedCarouselCard from "./lib/ImagedCarouselCard";
+import ImagedCarouselCard from "react-native-imaged-carousel-card";
 
 const App = () => {
   return (
