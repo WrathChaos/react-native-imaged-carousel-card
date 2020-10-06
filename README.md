@@ -27,12 +27,7 @@ npm i react-native-imaged-carousel-card
 
 ## Peer Dependencies
 
-###### IMPORTANT! You need install them
-
-```js
-"react": ">= 16.x.x",
-"react-native": ">= 0.55.x",
-```
+**Zero Dependency**
 
 # Usage
 
